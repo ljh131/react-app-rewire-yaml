@@ -1,32 +1,32 @@
 {
-  "name": "react-app-rewire-yaml",
+  "name": "react-app-rewire-yaml-flat",
   "version": "1.0.0",
-  "description": "Add yaml-loader to a react-app-rewired config.",
+  "description": "Add yaml-flat-loader to a react-app-rewired config.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hsz/react-app-rewire-yaml.git"
+    "url": "git+https://github.com/ljh131/react-app-rewire-yaml-flat.git"
   },
   "keywords": [
     "create-react-app",
     "react-app-rewired",
     "webpack",
     "react",
-    "yaml-loader",
+    "yaml-flat-loader",
     "yaml",
     "yml"
   ],
-  "author": "Jakb Chrzanowski <jakub@hsz.mobi>",
+  "author": "ljh131 <ljh131@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hsz/react-app-rewire-yaml/issues"
+    "url": "https://github.com/ljh131/react-app-rewire-yaml-flat/issues"
   },
-  "homepage": "https://github.com/hsz/react-app-rewire-yaml#readme",
+  "homepage": "https://github.com/ljh131/react-app-rewire-yaml-flat#readme",
   "dependencies": {
     "json-loader": "^0.5.7",
-    "yaml-loader": "^0.5.0"
+    "yaml-flat-loader": "^0.1.0"
   }
 }

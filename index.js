@@ -19,18 +19,18 @@ const addBeforeRule = (rulesSource, ruleMatcher, value) => {
   rules.splice(index, 0, value)
 };
 
-function rewireYAML(config) {
-  const yamlLoader = {
+function rewireYamlFlat(config) {
+  const yamlFlatLoader = {
     test: /\.ya?ml$/,
     use: [
       { loader: require.resolve('json-loader') },
-      { loader: require.resolve('yaml-loader') },
+      { loader: require.resolve('yaml-flat-loader') },
     ],
   };
 
-  addBeforeRule(config.module.rules, fileLoaderMatcher, yamlLoader);
+  addBeforeRule(config.module.rules, fileLoaderMatcher, yamlFlatLoader);
 
   return config;
 }
 
-module.exports = rewireYAML;
+module.exports = rewireYamlFlat;
